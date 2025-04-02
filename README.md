@@ -19,7 +19,7 @@ A powerful Django-based stock management system that helps businesses track thei
 ## 🛠 Installation Guide
 ### 1️⃣ Clone the repository
 ```sh
-git clone [https://github.com/your-username/stock-management.git](https://github.com/DanielSemu/stock-management-system.git)
+git clone https://github.com/your-username/stock-management.git
 cd stock-management
 ```
 2️⃣ Set up a virtual environment
