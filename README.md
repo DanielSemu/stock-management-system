@@ -22,6 +22,40 @@ A powerful Django-based stock management system that helps businesses track thei
 git clone https://github.com/your-username/stock-management.git
 cd stock-management
 ```
+2️⃣ Set up a virtual environment
+```sh
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+```
+3️⃣ Install dependencies
+```sh
+pip install -r requirements.txt
+```
+4️⃣ Run database migrations
+```sh
+python manage.py makemigrations
+python manage.py migrate
+```
+5️⃣ Create a superuser
+```sh
+python manage.py createsuperuser
+```
+6️⃣ Run the server
+```sh
+python manage.py runserver
+```
+Now, visit http://127.0.0.1:8000/ in your browser! 🎉
+
+## 🔥 Common Django Commands
+| Command	                            | Description                  |
+|---------------------------------------|------------------------------|
+| python manage.py startapp app_name	| Create a new Django app      |
+| python manage.py runserver	        | Start the development server |
+| python manage.py createsuperuser	    | Create an admin user         |
+| python manage.py makemigrations	    | Prepare database changes     |
+| python manage.py migrate	            | Apply database changes       |
+| python manage.py shell	            | Open Django shell            |
+## 📊 Database Schema
 ## 1. User & Authentication Tables
 ### 1️⃣ Users Table (users)
 Stores user details and roles.
