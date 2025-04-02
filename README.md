@@ -1,44 +1,27 @@
-# 📈 Stock Management System  
+# 🏢 Stock Management System
 
-*A web-based system for managing shares, investors, and transactions efficiently. Built with Django.*
+A powerful Django-based stock management system that helps businesses track their inventory, suppliers, sales, and purchases efficiently.  
 
-## 🚀 Features  
-- 📜 **Investor Management** – Register, update, and manage shareholders.  
-- 🔄 **Share Transactions** – Buy, sell, and transfer shares.  
-- 📊 **Dividends Calculation** – Automatically calculate and distribute dividends.  
-- 🏦 **Financial Reports** – Generate reports on shareholder holdings and transactions.  
-- 🔐 **User Authentication & Role Management** – Admin, Investors, and Staff access levels.  
-- 📡 **Real-time Updates** – Track live changes in share allocations.  
-- 🖥 **Responsive UI** – Seamless experience across all devices.  
+---
 
-## 🛠 Tech Stack  
-- **Backend:** Django, Django REST Framework  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Database:** PostgreSQL / SQLite  
-- **Authentication:** Django Authentication & Authorization  
-- **Deployment:** Docker, Nginx, Gunicorn  
+## 🚀 Features
+- ✅ Inventory management (Add, Update, Delete stock)
+- ✅ Warehouse tracking
+- ✅ Supplier & Customer management
+- ✅ Sales & Purchase orders
+- ✅ Stock movement tracking
+- ✅ Low stock alerts & notifications
+- ✅ Role-based authentication (Admin, Manager, Staff)
+- ✅ Reports & analytics
 
-## 📌 Installation  
+---
 
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/yourusername/share-management-system.git
-cd share-management-system
-```
-### 2️⃣ Create a Virtual Environment & Install Dependencies
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-### 3️⃣ Set Up the Database
-```bash
-python manage.py migrate
-```
-### 4️⃣ Create a Superuser (Admin Panel)
-```bash
-python manage.py createsuperuser
-```
+## 🛠 Installation Guide
+### 1️⃣ Clone the repository
+```sh
+git clone https://github.com/your-username/stock-management.git
+cd stock-management
+
 ## 1. User & Authentication Tables
 ### 1️⃣ Users Table (users)
 Stores user details and roles.
