@@ -21,7 +21,7 @@ A powerful Django-based stock management system that helps businesses track thei
 ```sh
 git clone https://github.com/your-username/stock-management.git
 cd stock-management
-
+```
 ## 1. User & Authentication Tables
 ### 1️⃣ Users Table (users)
 Stores user details and roles.
