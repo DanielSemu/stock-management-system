@@ -223,3 +223,28 @@ Stores records of returned products.
 ✅ **Covers all stock management needs**  
 ✅ **Supports order processing & tracking**  
 ✅ **Future-proof with extra tables like Returns & Permissions**  
+
+## ✅ Django Apps
+1️⃣ users → Handles authentication and user roles
+
+User model (manages roles, permissions)
+
+2️⃣ inventory → Manages stock items, categories, and warehouses
+
+StockItem, Category, Warehouse models (stock management)
+
+3️⃣ orders → Manages purchase orders, sales orders, and order items
+
+PurchaseOrder, SalesOrder, OrderItem models (order processing)
+
+4️⃣ suppliers_customers → Manages supplier and customer information
+
+Supplier, Customer models (supplier/customer data)
+
+5️⃣ stock_movement → Handles stock movements and alerts
+
+StockMovement, StockAlert models (stock transfers and alerts)
+
+6️⃣ returns → Manages product returns
+
+Return model (returns and refunds)
